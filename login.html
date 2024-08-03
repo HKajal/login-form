@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <form action="loggin.html" onsubmit="return registration()" id="forr">
+        <h1>login form</h1>
+        <hr>
+        <div>
+            <label for="">User Id</label><br>
+            <input type="text" id="txt" class="intt" onkeyup="return uvalidate()"><br>
+            <p id="uid" class="error"></p><br>
+            <label for="pass">Password</label><br>
+            <input type="password" id="pass" class="intt"><br>
+            <p id="pas" class="error"></p><br>
+            <label for="ph">Phone No.</label><br>
+            <input type="number" id="ph" class="intt"><br>
+            <p id="phn" class="error"></p><br>
+            <label for="ag">Age</label><br>
+            <input type="number" id="ag" class="intt"><br>
+            <p id="age" class="error"></p>
+            <button>submit</button>
+            <button>reset</button>
+            <marquee behavior="" direction="" style="background-color: chartreuse; color: crimson;">get offer by logging in</marquee>
+        </div>
+    </form>
+    <script src="script.js"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-54091f86-b57f-4d3f-9113-e3f1ff9f1956" data-elfsight-app-lazy></div>
+</body>
+</html>
